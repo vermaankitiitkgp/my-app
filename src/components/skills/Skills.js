@@ -14,7 +14,6 @@ export default function Skills() {
         let data = inputFields.map((row, rowIndex) => {
 
             if (index == rowIndex) {
-                //row[event.target.name] = event.target.value;
                 return {
                     ...row,
                     [event.target.name]: event.target.value
