@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 //import { useSelector, useDispatch } from "react-redux";
 //import "./App.css";
-
+import './dist/output.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Education from "./components/education/Education";

@@ -42,7 +42,7 @@ export default function Education() {
                     />
                 </label>
 
-                <button onClick={handleSubmit}>
+                <button class="dark:md:hover:bg-fuchsia-600 ..." onClick={handleSubmit}>
                     <Link to="/exp">Experience
                     </Link>
                 </button>
